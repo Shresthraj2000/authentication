@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {{>header}}
+    <form action="/register" method="POST">
+    <input type="email" name="email" id="" placeholder="Email">
+    <input type="number" name="number" id="" placeholder="Phone">
+    <input type="password" name="pass" id="" placeholder="pass">
+    <input type="password" name="cnfpass" id="" placeholder="cnf-pass"><br>
+    <input type="radio" name="gender" id="" value="male">Male<br>
+    <input type="radio" name="gender" id="" value="female">Female<br>
+    
+    <input type="submit" value="Register">
+    </form>
+</body>
+</html>
